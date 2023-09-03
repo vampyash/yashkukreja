@@ -1,0 +1,40 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.content-container {
+    min-height: calc(100vh - 60px);
+
+    &--hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        font-weight: 700;
+    }
+}
+
+.title {
+    &--hero {
+        font-size: $xxl-font;
+    }
+}
+
+.sub-title {
+    font-size: $xl-font;
+    font-weight: 600;
+    &--hero {
+       
+    }
+
+    &--profession {
+        background-color: $red;
+        padding: 10px 20px;
+        border-radius: 20px;
+        color: $white;
+        box-shadow: 4px 4px 4px $light-black;
+    }
+
+}
